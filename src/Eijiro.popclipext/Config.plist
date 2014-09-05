@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>eijiro.png</string>
+			<key>Regular Expression</key>
+			<string>(?![A-Za-z])^.{1,1900}$</string>
+			<key>Title</key>
+			<string>Eijiro - 英二郎 on the WEB</string>
+			<key>URL</key>
+			<string>http://eow.alc.co.jp/search?q={popclip text}</string>
+		</dict>
+	</array>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>https://zenbustudio.com</string>
+			<key>Name</key>
+			<string>Nicolas Bottari / Zenbu Studio</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Search alc.co.jp's Eijiro online dictionary (英辞郎 on the WEB, Japanese-English) with the selected text.</string>
+	<key>Extension Identifier</key>
+	<string>com.zenbustudio.popclip.extension.eijiro</string>
+	<key>Extension Name</key>
+	<string>Eijiro</string>
+</dict>
+</plist>
